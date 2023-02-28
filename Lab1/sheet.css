@@ -15,16 +15,18 @@
   }
 
   body{
+    font-size: 4vw;
+
     display: grid;
     grid-row-gap: 15px;
-    grid-column-gap: 25px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 
     grid-template-areas: 
-    "header header"
-    "nav aside"
-    "main aside"
-    "footer footer"
+    "header"
+    "nav"
+    "main"
+    "aside"
+    "footer"
     ;
 }
 
@@ -44,7 +46,6 @@
   }
   nav {
     grid-area: nav;
-    width: fit-content;
   }
 
   br{
@@ -60,4 +61,27 @@
 
 h1{
   animation: colorFlow 4s infinite alternate;
+}
+
+
+@media screen and (min-width: 768px){
+  body{
+    font-size: unset;
+
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 25px;
+
+    grid-template-areas: 
+    "header header"
+    "nav aside"
+    "main aside"
+    "footer footer"
+    ;
+  }
+  nav{
+    width: fit-content;
+  }
+
+  
+  
 }
