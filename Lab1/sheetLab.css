@@ -1,0 +1,28 @@
+body{
+    background-image: url('https://agroturystyka-u-doroty-ochotnica-gorna.booked.com.pl/data/Photos/OriginalPhoto/8536/853642/853642268/Agroturystyka-U-Doroty-Villa-Ochotnica-Gorna-Exterior.JPEG');    
+    background-repeat: round;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav{
+    width: 100vw;
+    background-color: aquamarine;
+    
+}
+
+nav{
+    position: relative;
+}
+main{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card > img{
+}
